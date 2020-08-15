@@ -51,7 +51,7 @@ export default function Verification({ navigation }) {
                 <Text style={styles.login}>
                     Have an account?
                     </Text>
-                <Link><Text style={styles.login}>Log in</Text></Link>
+                <Link to='/login'><Text style={styles.login}>Log in</Text></Link>
             </View>
         </View >
     )
